@@ -35,6 +35,7 @@
     {"id":{"name":"ft_game_over_text","path":"fonts/ft_game_over_text/ft_game_over_text.yy",},},
     {"id":{"name":"ft_game_over","path":"fonts/ft_game_over/ft_game_over.yy",},},
     {"id":{"name":"ft_pixel","path":"fonts/ft_pixel/ft_pixel.yy",},},
+    {"id":{"name":"ft_titulo","path":"fonts/ft_titulo/ft_titulo.yy",},},
     {"id":{"name":"obj_botao","path":"objects/obj_botao/obj_botao.yy",},},
     {"id":{"name":"obj_clt","path":"objects/obj_clt/obj_clt.yy",},},
     {"id":{"name":"obj_coletavel","path":"objects/obj_coletavel/obj_coletavel.yy",},},

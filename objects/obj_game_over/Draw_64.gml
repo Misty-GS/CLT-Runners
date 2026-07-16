@@ -24,8 +24,8 @@ if global.state == "game_over" {
     draw_text(X, Y - 80, "Vai trabalhar vagabundo!")
 
     draw_text(X, Y, "Pressione 'R' para tentar novamente")
-    draw_rectangle(50, Y - 30, X + 220, Y + 30, true)
-    draw_rectangle(50, Y + 100, X + 220, Y + 60, true)
+    draw_rectangle(20, Y - 30, X + 160, Y + 30, true)
+    draw_rectangle(20, Y + 100, X + 160, Y + 60, true)
     draw_text(X, Y + 80, "Pressione 'ESC' para voltar ao menu")
 
     draw_set_alpha(1.0)

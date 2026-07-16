@@ -12,6 +12,7 @@ if espaco {
         layer_background_index(_back_id, page_index)
     } else {
 		//Se já passou todos os frames de introdução vai para room game
-        room_goto_next()
+		global.state = "game"
+        room_goto(rm_jogo)
     }
 }

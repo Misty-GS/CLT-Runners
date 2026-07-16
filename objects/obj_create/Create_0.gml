@@ -3,7 +3,7 @@ vspeed = 1
 velocidade_salva = vspeed
 
 spawn = true
-instancia = choose("clt","coletavel")
+instancia = 0
 time = 0
 
 desenhar_transicao = true  

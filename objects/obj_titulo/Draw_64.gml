@@ -13,7 +13,7 @@ draw_rectangle(0, Y + 50, tela_x, Y + 250, false)
 //config do titulo
 draw_set_color(c_white)
 draw_set_alpha(1)
-draw_set_font(ft_game_over)
+draw_set_font(ft_titulo)
 draw_text(X, Y + 100, "CLT")
 draw_text(X, Y + 200, "Runners")
 

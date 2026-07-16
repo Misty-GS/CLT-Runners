@@ -16,8 +16,8 @@ if (desenhar_transicao) {
     
     // Quando a tela ficar 100% preta, mudamos de sala
     if (transicao_alpha >= 1) {
-		global.state = "game"
-        room_goto_next()
+		global.state = "introducao"
+        room_goto(rm_introducao_1)
     }
 }
 

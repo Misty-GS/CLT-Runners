@@ -13,7 +13,7 @@ if (global.state == "game_over") {
     
 	    // Quando a tela ficar 100% preta, mudamos de sala
 		if (transicao_alpha >= 1) {
-				
+			room_goto(rm_start)
 		}
 	}
 } else {

@@ -16,7 +16,7 @@ if global.state == "pause" || fade_alpha > 0 {
 
     draw_set_alpha(fade_alpha) 
 
-    draw_set_font(ft_game_over)
+    draw_set_font(ft_titulo)
     draw_set_colour(c_yellow)
     draw_text(X, Y - 130, "Pause");
     draw_set_font(ft_game_over_text)
@@ -25,9 +25,9 @@ if global.state == "pause" || fade_alpha > 0 {
 	draw_text(X, Y - 50, "Record Atual: " + string(round(global.record)) + "M")
 
     draw_text(X, Y, "Pressione 'ESC' para despausar")
-    draw_rectangle(50, Y - 30, X + 220, Y + 30, true)
-    draw_rectangle(50, Y + 100, X + 220, Y + 60, true)
-    draw_text(X, Y + 80, "Pressione 'X' para voltar ao menu")
+    draw_rectangle(20, Y - 30, X + 160, Y + 30, true)
+    draw_rectangle(20, Y + 100, X + 160, Y + 60, true)
+    draw_text(X, Y + 80, "Pressione 'X' para ir ao menu")
 
     draw_set_alpha(1.0)
     draw_set_colour(c_white)

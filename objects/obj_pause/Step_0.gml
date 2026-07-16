@@ -3,8 +3,10 @@ pause = keyboard_check_pressed(vk_escape)
 if pause {
 	if global.state == "pause" {
 		global.state = "game"
-	}else {
+	}else if global.state == "game" {
 		global.state = "pause"
+	}else {
+		
 	}
 	
 }
